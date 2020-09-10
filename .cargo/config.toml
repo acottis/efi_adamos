@@ -1,0 +1,5 @@
+
+
+[build]
+target = "x86_64-pc-windows-msvc"
+rustflags = ["-C", "linker=lld-link", "-C", "link-args=/entry:entry /subsystem:efi_application"]
